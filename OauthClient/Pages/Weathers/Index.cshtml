@@ -1,0 +1,21 @@
+﻿@page
+@model OauthClient.Pages.Weathers.IndexModel
+@{
+    ViewData["Title"] = "Weathers";
+}
+
+<h1>Weathers</h1>
+
+@foreach (var weather in Model.Weathers)
+{
+<p>
+    <strong>Date:</strong> @weather.Date
+    <br />
+    <strong>°C:</strong> @weather.TemperatureC
+    <br />
+    <strong>°F:</strong> @weather.TemperatureF
+    <br />
+    <strong>Summary:</strong> @weather.Summary
+</p>    
+}
+

@@ -1,0 +1,11 @@
+config:
+  azure:location: uksouth
+
+  quickstart:tenantId: "tenant guid"
+  quickstart:scope: "api://{scope}/Weather.Read"
+  
+  #clientId of the front-end application
+  quickstart:clientId: "client id guid"
+
+  #client secret of the front-end application
+  quickstart:clientSecret: "client secret"
